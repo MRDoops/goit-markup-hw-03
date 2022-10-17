@@ -4,9 +4,10 @@ h3,
 h4,
 h5,
 h6,
-p {
-	margin-top: 0;
-	margin-bottom: 0;
+p,
+ul {
+	margin: 0;
+	padding: 0;
 }
 
 :root {
@@ -126,6 +127,8 @@ body {
 /* Main */
 .main-btn {
 	padding: 10px 32px;
+	min-width: 216px;
+	text-align: center;
 }
 
 .title-text {
