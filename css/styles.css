@@ -1,3 +1,14 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 :root {
 	--primary-text-color: #757575;
 	--title-text-color: #212121;
@@ -35,6 +46,7 @@ body {
 	font-family: inherit;
 	border: none;
 	cursor: pointer;
+	display: inline-block;
 }
 
 .button:hover,
@@ -112,6 +124,9 @@ body {
 }
 
 /* Main */
+.main-btn {
+	padding: 10px 32px;
+}
 
 .title-text {
 	font-weight: 900;
@@ -120,6 +135,7 @@ body {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--white-color);
+	margin-bottom: 30px;
 }
 
 .hero {
@@ -150,6 +166,7 @@ body {
 	line-height: 1.14;
 	text-transform: uppercase;
 	color: var(--title-text-color);
+	margin-bottom: 10px;
 
 }
 
@@ -168,6 +185,7 @@ body {
 	font-size: 36px;
 	line-height: 1.16;
 	color: var(--title-text-color);
+	margin-bottom: 50px;
 }
 
 
@@ -181,6 +199,7 @@ body {
 	background: var(--white-color);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
+	list-style: none;
 }
 
 .team-subtitle {
@@ -258,3 +277,16 @@ body {
 	font-size: 16px;
 	line-height: 1.88;
 }
+
+/* div container, section */
+.container {
+	width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.section {
+	padding: 94px 0;
+}
+
