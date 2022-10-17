@@ -139,10 +139,13 @@ body {
 	text-transform: uppercase;
 	color: var(--white-color);
 	margin-bottom: 30px;
+	max-width: 696px;
+	margin: 0 auto 30px;
 }
 
 .hero {
 	background-color: var(--footer-background-color);
+	text-align: center;
 }
 
 
