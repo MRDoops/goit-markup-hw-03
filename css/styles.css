@@ -4,10 +4,15 @@ h3,
 h4,
 h5,
 h6,
-p,
-ul {
+p {
 	margin: 0;
 	padding: 0;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 img {
@@ -376,6 +381,7 @@ body {
 .search-form .search-btn:not(:last-child) {
 	margin-right: 8px;
 }
+
 .search-form .button {
 	padding-top: 6px;
 	padding-bottom: 6px;
