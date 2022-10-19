@@ -115,6 +115,10 @@ body {
 
 .address-logo {
 	color: var(--white-color);
+	padding-top: 60px;
+	padding-bottom: 20px;
+	display: block;
+
 }
 
 .text-logo {
@@ -177,6 +181,19 @@ body {
 
 	background-color: var(--footer-background-color);
 	text-align: center;
+	max-width: 1600px;
+	min-height: 600px;
+	margin: auto;
+
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.container-content {
+	justify-content: center;
+	align-items: center;
+
 }
 
 
@@ -294,14 +311,27 @@ body {
 /* Footer */
 .addres-list-colum {
 	list-style: none;
+	display: block;
 }
 
 .footer-list {
 	background-color: var(--footer-background-color);
+	max-width: 1600px;
+	margin: auto;
+
 }
+
+
+.addres-list-colum .list:not(:last-child) {
+	padding-bottom: 9px;
+}
+
+
 
 .address-list {
 	font-style: normal;
+	padding-bottom: 60px;
+	max-width: 231px;
 }
 
 .address-map {
@@ -365,9 +395,3 @@ body {
 
 
 }
-
-/* .flx {
-	display: flex;
-	align-items: center;
-	margin: auto;
-} */
