@@ -474,6 +474,7 @@ img {
 .post-content {
 	background-color: var(--white-color);
 	list-style: none;
+	flex-basis: calc((100% - 30px * 2) / 3);
 }
 
 
